@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/tvCloudIp"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:text="@string/tvCloudIp"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/etCloudIp"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/etCloudIp"
+            android:singleLine="true" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/tvCloudPort"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:text="@string/tvCloudPort"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/etCloudPort"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/etCloudPort"
+            android:singleLine="true" />
+    </LinearLayout>
+
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:gravity="center_horizontal"-->
+        <!--android:orientation="horizontal" >-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/tvToken"-->
+            <!--android:layout_width="110dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="@string/tvToken"-->
+            <!--android:textColor="#000000"-->
+            <!--android:textSize="20sp" />-->
+
+        <!--<EditText-->
+            <!--android:id="@+id/etToken"-->
+            <!--android:layout_width="150dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:ems="10"-->
+            <!--android:hint="@string/etToken"-->
+            <!--android:singleLine="true" />-->
+    <!--</LinearLayout>-->
+
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:gravity="center_horizontal"-->
+        <!--android:orientation="horizontal" >-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/tvRemotePort"-->
+            <!--android:layout_width="110dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="@string/tvRemotePort"-->
+            <!--android:textColor="#000000"-->
+            <!--android:textSize="20sp" />-->
+
+        <!--<EditText-->
+            <!--android:id="@+id/etRemotePort"-->
+            <!--android:layout_width="150dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:ems="10"-->
+            <!--android:hint="@string/etRemotePort"-->
+            <!--android:singleLine="true" />-->
+    <!--</LinearLayout>-->
+
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:gravity="center_horizontal"-->
+        <!--android:orientation="horizontal" >-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/tvUserNm"-->
+            <!--android:layout_width="110dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="@string/tvUserNm"-->
+            <!--android:textColor="#000000"-->
+            <!--android:textSize="20sp" />-->
+
+        <!--<EditText-->
+            <!--android:id="@+id/etUserNm"-->
+            <!--android:layout_width="150dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:ems="10"-->
+            <!--android:hint="@string/etUserNm"-->
+            <!--android:singleLine="true" />-->
+    <!--</LinearLayout>-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dip"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btn_login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:text="@string/save"
+            android:textSize="20sp" />
+    </LinearLayout>
+</LinearLayout >

@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">http-proxy-app</string>
+    <string name="tvCloudIp">云端ip</string>
+    <string name="etCloudIp">请输入云端ip</string>
+    <string name="tvCloudPort">云端主接口</string>
+    <string name="etCloudPort">请输入云端主接口</string>
+    <string name="tvToken">验证token</string>
+    <string name="etToken">请输入token</string>
+    <string name="tvRemotePort">应用接口</string>
+    <string name="etRemotePort">请输入应用接口</string>
+    <string name="tvUserNm">用户名</string>
+    <string name="etUserNm">请输入用户名</string>
+    <string name="save">保存并开启连接</string>
+    <string name="title_activity_success">success</string>
+    <string name="successText">连接成功</string>
+    <string name="tvAddress">cloudIp:cloudPort</string>
+    <string name="back">返回</string>
+</resources>
